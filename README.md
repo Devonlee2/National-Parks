@@ -1,27 +1,27 @@
-# Project Title
+National Parks Website
 
-Simple overview of use/purpose.
+Second Capstone project for Yearup App Dev featuring National parks and mountains around the country. 
 
 ## Description
 
-An in-depth paragraph about your project and overview of use.
+In this Project the goal was to demostrate how successful the develepor is when it comes to the basic functions of building a website. For the Project we have three mandoratoy pages. A Homepage with basic  information/ A national parks page that we have to demostrate our skills with using javascript to filter out speific data and grab certain information/ Mountains page that have a single drop down menu that allows the user to filter through different mountain ranges and look a the inforamtion and a picture. 
 
 ## Getting Started
-
+All you need is a computer pc/mac that has  visual code or and program editor and a means to upzip a file
 ### Dependencies
 
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. Windows 10
+*visual studio code
+* windows 10/ mac 
 
 ### Installing
 
-* How/where to download your program
-* Any modifications needed to be made to files/folders
+* Head over to my github page and download the the zip file. No modification are needed.
 
 ### Executing program
 
 * How to run the program
-* Step-by-step bullets
+you can open any .html page to run the code
+All major tabs are working to function like actual live site.
 ```
 code blocks for commands
 ```
@@ -30,15 +30,14 @@ code blocks for commands
 
 Any advise for common problems or issues.
 ```
-command to run if program contains helper info
+All code can be run with a simple run debugging prompt or using the live sever function
 ```
 
 ## Authors
 
 Contributors names and contact info
-
-ex. Dominique Pizzie  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
+Devon Lee
+Rose gabun(Javascript)
 
 ## Version History
 
@@ -50,13 +49,8 @@ ex. [@DomPizzie](https://twitter.com/dompizzie)
 
 ## License
 
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
+This project is licensed under the [Apache 2.0] License - see the LICENSE.md file for details
 
 ## Acknowledgments
 
-Inspiration, code snippets, etc.
-* [awesome-readme](https://github.com/matiassingers/awesome-readme)
-* [PurpleBooth](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
-* [dbader](https://github.com/dbader/readme-template)
-* [zenorocha](https://gist.github.com/zenorocha/4526327)
-* [fvcproductions](https://gist.github.com/fvcproductions/1bfc2d4aecb01a834b46)
+* Huge applause to Rose Gabun who help me with my Javascript and shown me there was an easier way to filter out functions without typing everything out. 
