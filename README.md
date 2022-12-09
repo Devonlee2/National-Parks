@@ -1,4 +1,5 @@
-National Parks Website
+## PROJECT NAME
+National Parks website
 
 Second Capstone project for Yearup App Dev featuring National parks and mountains around the country. 
 
