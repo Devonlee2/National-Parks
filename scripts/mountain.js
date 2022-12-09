@@ -52,3 +52,6 @@ function displayInfo() {
     }
 }
 
+// Shoutout Rose 
+// https://github.com/roseylikeme
+// https://www.youtube.com/@roselene/videos
