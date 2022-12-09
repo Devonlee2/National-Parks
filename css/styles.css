@@ -315,7 +315,7 @@ header.sticky{
 	flex-wrap: wrap;
 }
 .footer{
-	padding: 20px 0;
+	padding: 20px 50;
 }
 .list{
 	width: 25%;
@@ -460,14 +460,7 @@ header.sticky{
 
     
 
- .card{
-	width: 20%;
-	display: inline-block;
-	box-shadow: 2px 2px 20px black;
-	border-radius: 5px; 
-	margin: 2%;
-   }
-
+ 
 .image img{
  width: 100%;
  border-top-right-radius: 5px;
@@ -510,174 +503,5 @@ button:hover{
  transition: .5s;
  cursor: pointer;
 }
-
-
-/* DESTINATIONS DROPDOWN */
-.dropdown-filter {
-    max-width: 1095px;
-    margin: 0px auto;
-    width: 100%;
-    text-align: center;
-}
-.dropdown-filter form {
-  width: 100%;
-  float: left;
-  padding: 0px 0 50px 10px;
-}
-.dropdown-filter .selectdiv {
-  float: left;
-  width: 31%;
-  margin-right: 2%;
-  position: relative;
-}
-.dropdown-filter .grid-destinations.selectdiv {
-  width: 23%;
-}
-.dropdown-filter select {
-    width: 100%;
-    display: block;
-    float: left;
-    text-transform: uppercase;
-    background: #EAEAEA;
-    padding: 0 45px 0 15px;
-    font-size: 14px;
-    line-height: 50px;
-    height: 50px;
-    font-weight: bold;
-    border: 0px;
-    cursor: pointer;
-    -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  border-radius: 0;
-    }
-/* remove select button from IE11 */
-.dropdown-filter select::-ms-expand {
-     display: none;
-}
-.dropdown-filter .selectdiv i {
-    color: #fff;
-    background: #4b5320;
-    right: 0px;
-    top: 0px;
-    height: 50px;
-    line-height: 50px;
-    position: absolute;
-    pointer-events: none;
-    width: 45px;
-}
-.home .dropdown-filter .selectdiv i {
-   background: #4b5320;
-}
-.dropdown-filter .button {
-  border: 0;
-  background: #4b5320;
-  width: 23%;
-  float: left;
-  color: #fff;
-    font-family: 'Roboto', sans-serif;
-    font-size: 15px;
-    padding: 0 15px;
-        line-height: 50px;
-    height: 50px;
-    text-transform: uppercase;
-    cursor: pointer;
-    border-radius: 0;
-    font-weight: bold;
-}
-.home .dropdown-filter .button {
-  background: #4b5320;
-}
-.black-bg {
-  width: 100%;
-  background: #000;
-  padding: 15px 0;
-  height: 80px;
-}
-#destination_filter.dropdown-filter .selectdiv {
-  width: 31%;
-}
-#destination_filter.dropdown-filter button {
-  width: 31%;
-}
-#destination_filter.dropdown-filter select {
-    background: #fff;
-    }
-#destination_filter.dropdown-filter form {
-    padding: 0 0 0 10px;
-}
-
-@media (max-width: 767px) {
-  .dropdown-filter .selectdiv {
-    clear: both;
-    float: none;
-    width: 90% ! important;
-    margin: 0 auto ! important;
-}
-  .dropdown-filter .selectdiv select {
-    margin-bottom: 10px;
-  } 
-  .dropdown-filter .button {
-    width: 65% !important;
-    float: none;
-    margin: 10px auto ! important;
-	  clear:both;
-}
-.black-bg {
-    height: auto;
-    float: left;
-}
-	
-}
-
-@media screen and (max-width:1000px) and (min-width:700px) {
-	.image-extras .image-extras-content .grid-titles h3{
-		font-size:20px
-	}	
-		.image-extras .image-extras-content .grid-titles h4{
-		font-size:15px
-	}	
-	
-	.grid-titles {
-
-    max-width: 100%;
-}
-	}
-
-
-
-
-
-
-
-/* dropdwon */
-
-#twoactivities {
-    padding-top: 60px;
-    
-    height: 120vh;
-    flex-direction: column;
-    align-items: center;
-    
-}
-
-p.big-p {
-    font-size: 12px;
-}
-
-/* Form for Activities Page */
-.form-select-lg {
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-    padding-left: 1rem;
-    font-size: 1.75rem;
-}
-
-.form-select {
-    width: 550px;
-    text-align: center;
-    margin: auto;
-}
-
 
 
