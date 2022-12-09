@@ -28,7 +28,7 @@
             <li><a href="index.html">Home</a></li>
             <li><a href="NationalParks.html">National Parks</a></li>
             <li><a href="Mountains.html">Mountains</a></li>
-            <li><a href="#contact">Contact Us</a></li>
+            
         </ul>
     </header>
 
@@ -36,8 +36,7 @@
     <section class="home" id="home">
         <div class="home-text">
             <h1>Choose Your <br> Adventure!</h1>
-            <p>Enthusiastically extend extensive customer service before <br> best breed convergence completely.</p>
-        </div>
+            </div>
     </section>
 
     <!--Card container-->
@@ -47,15 +46,23 @@
               <option id="default">Search Parks By ...</option>
               <option id="location">Location</option>
               <option id="parkType">Park Type</option>
-              <option id="all">View All National Parks</option>
+              <!-- <option id="all">View All National Parks</option> -->
             </select>
             <!-- Hidden & Appears Through JS -->
             <select id="locationsList" class="form-select text-bg-dark opacity-75 mb-4"></select>
             <select id="parkTypeList" class="form-select text-bg-dark opacity-75 mb-4"></select>
-            <select id="parkList" class="form-select text-bg-dark opacity-75 mb-4"></select>
+            <!-- COMMENT OUT PARKSDESCRIPTION FOR DEVON'S CODE -->
+            <!-- <select id="parkList" class="form-select text-bg-dark opacity-75 mb-4"></select> -->
         </div>
         <p id="extraData" class="h3 text-bg-dark opacity-75 text-center p-4 fw-bold"></p>
-        <div id="parksDescription" class="card opacity-75 m-5 p-4">
+       
+        <div class="container">
+            <div id="cardLocationContainer" class="row d-flex justify-content-center">
+                <!-- Content here is filled through JS -->
+            </div>
+        </div>
+        <!-- COMMENT OUT PARKSDESCRIPTION FOR DEVON'S CODE -->
+        <!-- <div id="parksDescription" class="card opacity-75 m-5 p-4"> -->
             <!-- Content here is filled through JS -->
         </div>
     </section>
